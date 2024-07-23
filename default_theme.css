@@ -1,0 +1,48 @@
+:root {
+    --main_color_background : #AC8968;
+    --main_color_text : #3E362E;
+    --main_color_blockquote : #93785B;
+    --main_color_link : #865D36;
+}
+
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+body {
+    background-color : var(--main_color_background);
+}
+
+.md_translation_content{
+    font-family : Arial, sans-serif;
+    background-color : var(--main_color_background);
+    color : var(--main_color_text);
+    padding : 1.5rem;
+    margin : 2rem;
+    border-top-style : solid;
+    border-width : 1px;
+}
+
+.md_translation_content h1 {
+    border-bottom-style : solid;
+    border-bottom-width : 2px;
+}
+
+.md_translation_content blockquote {
+    border-left : 5px solid;
+    padding : 0.5rem;
+    background-color : var(--main_color_blockquote);
+}
+
+.md_translation_content .horizontal_rule {
+    border-top : 2px solid;
+    display : block;
+    width : 100%;
+    height : 10px;
+}
+
+.md_translation_content a {
+    color : var(--main_color_link);
+}
